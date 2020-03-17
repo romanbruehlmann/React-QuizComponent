@@ -4,9 +4,10 @@ class QuizEnd extends Component {
 
     render() {
         return (
-            <li>
-                <button>{this.props.button_text}</button>
-            </li>
+            <div>
+                <p>Thanks for playing!</p>
+                <a href=''>Reset Quiz</a>
+            </div>
 
         )
     }
